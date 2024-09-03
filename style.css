@@ -1,0 +1,82 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.web
+{
+    background-color: #333;
+    height: 650px;
+    max-height: 99%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    background-image: url(/Netflix-Hintergrund.webp);
+}
+.web form{
+    height: 500px;
+    background-color:rgb(17, 16, 16);
+    display: flex;
+    width: 370px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px;
+    flex-direction: column;
+    opacity: 90%;
+}
+.web form h4
+{
+    display: flex;
+    align-items: center;
+}
+#img1 img{
+    border-radius: 20px;
+    width: 250px;
+    height: 150px;
+    margin-left: 63px;
+}
+.web form h4
+{
+    color: white;
+    margin-left: 63px;
+    margin-bottom: 40px;
+
+}
+.web input
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 55px;
+    background-color: rgb(17, 16, 16);
+    height: 15px;
+    width: 250px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-color: #333;
+}
+button
+{
+    background-color: rgb(229,9,20);
+    width: 250px;
+    height: 30px;
+    margin-left: 58px;
+    margin-top: 30px;
+    border-color: rgb(17, 16, 16);
+}
+.web label input 
+{
+    display: flex;
+    justify-items: left;
+    margin-left: 100px;
+    
+}   
+.web label a
+{
+    margin-left: 110px;
+}
+button:hover
+{
+    background-color: rgba(194, 29, 0, 0.918);
+}
+label
